@@ -1,7 +1,7 @@
 <idea-plugin>
   <id>com.tylerthrailkill.intellij.solarized</id>
   <name>Solarized Theme</name>
-  <version>1.1</version>
+  <version>1.2</version>
   <vendor email="tyler.b.thrailkill@gmail.com" url="http://tylerthrailkill.com">Tyler Thrailkill</vendor>
 
   <description><![CDATA[
@@ -9,6 +9,11 @@
     ]]></description>
 
   <change-notes><![CDATA[
+      <ul>
+      <li>1.0   Initial release. Basic theme functionality.</li>
+      <li>1.1   Change support to only 2019.1+ products. Change support to <em>all</em> JetBrains products</li>
+      <li>1.2   Fix VCS colors</li>
+      </ul>
     ]]>
   </change-notes>
 
