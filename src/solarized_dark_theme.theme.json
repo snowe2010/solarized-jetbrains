@@ -2,7 +2,7 @@
   "name": "Solarized Dark",
   "dark": true,
   "author": "Tyler Thrailkill",
-  "editorScheme": "/Solarized Dark.xml",
+  "editorScheme": "/themes/Solarized Dark.xml",
   "ui": {
     "Borders": {
       "color": "#073642",

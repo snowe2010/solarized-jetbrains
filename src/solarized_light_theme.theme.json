@@ -2,7 +2,7 @@
   "name": "Solarized Light",
   "dark": false,
   "author": "Tyler Thrailkill",
-  "editorScheme": "/Solarized Light.xml",
+  "editorScheme": "/themes/Solarized Light.xml",
   "ui": {
     "Borders": {
       "color": "#eee8d5",
