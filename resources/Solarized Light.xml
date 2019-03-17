@@ -1,9 +1,9 @@
 <scheme name="Solarized Light" version="142" parent_scheme="Default">
   <metaInfo>
-    <property name="created">2019-03-15T16:36:46</property>
+    <property name="created">2019-03-16T23:41:09</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2018.3.5.0.0</property>
-    <property name="modified">2019-03-15T16:36:48</property>
+    <property name="modified">2019-03-16T23:41:17</property>
     <property name="originalScheme">Solarized Light</property>
   </metaInfo>
   <colors>
@@ -13,6 +13,14 @@
     <option name="CARET_COLOR" value="dc322f" />
     <option name="CARET_ROW_COLOR" value="eee8d5" />
     <option name="CONSOLE_BACKGROUND_KEY" value="fdf6e3" />
+    <option name="FILESTATUS_ADDED" value="859900" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="dc322f" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="dc322f" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="dc322f" />
+    <option name="FILESTATUS_MODIFIED" value="268bd2" />
+    <option name="FILESTATUS_addedOutside" value="5c9900" />
+    <option name="FILESTATUS_changelistConflict" value="dc322f" />
+    <option name="FILESTATUS_modifiedOutside" value="286fd2" />
     <option name="GUTTER_BACKGROUND" value="eee8d5" />
     <option name="INDENT_GUIDE" value="eee8d5" />
     <option name="LINE_NUMBERS_COLOR" value="93a1a1" />
