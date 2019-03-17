@@ -2,7 +2,7 @@
   "name": "Solarized <color>",
   "dark": "<dark>",
   "author": "Tyler Thrailkill",
-  "editorScheme": "/Solarized <color>.xml",
+  "editorScheme": "/themes/solarized<color>.xml",
   "ui": {
     "Borders": {
       "color": "#<background_highlights>",
@@ -37,23 +37,23 @@
       "hoverBorderColor": "#<background>",
       "pressedBorderColor": "#<background>"
     },
-    "Button.darcula": {
-      "startColor": "#<background>",
-      "endColor": "#<background>",
-      "outlineStartColor": "#<background_highlights>",
-      "outlineEndColor": "#<background_highlights>",
-      "focusedOutlineColor": "#<emphasized_content>",
-      "defaultStartColor": "#<emphasized_content>",
-      "defaultEndColor": "#<emphasized_content>",
-      "defaultOutlineColor": "#<emphasized_content>",
-      "outlineDefaultStartColor": "#<emphasized_content>",
-      "outlineDefaultEndColor": "#<emphasized_content>",
-      "defaultFocusedOutlineColor": "#<background>",
-      "selectedButtonForeground": "#<background>",
-      "smallComboButtonBackground": "#<background>"
+    "Button": {
+      "startBackground": "#<background>",
+      "endBackground": "#<background>",
+      "startBorderColor": "#<background_highlights>",
+      "endBorderColor": "#<background_highlights>",
+      "focusedBorderColor": "#<emphasized_content>",
+      "default": {
+        "startBackground": "#<emphasized_content>",
+        "endBackground": "#<emphasized_content>",
+        "startBorderColor": "#<emphasized_content>",
+        "endBorderColor": "#<emphasized_content>",
+        "focusedBorderColor": "#<background>",
+        "foreground": "#<background>"
+      }
     },
 
-    "ComboBox.darcula": {
+    "ComboBox": {
       "nonEditableBackground": "#<background>",
       "arrowButtonBackground": "#<background>",
       "editable.arrowButtonBackground": "#<background>",
@@ -75,6 +75,7 @@
       "active": {
         "foreground": "#<primary_text>",
         "background": "#<background_highlights>",
+        "selectedBackground": "#<background>",
         "underlineColor": "#<emphasized_content>"
       },
       "inactive.maskColor": "#<background_highlights>FF"
@@ -84,21 +85,18 @@
       "JVMBackground": "#FFD333",
       "JVMSearchNotMatchedBackground": "#806919",
       "nativeBackground": "#<emphasized_content>",
-      "nativeSearchNotMatchedBackground":"#00838F",
-      "parentBackground":"#<background>8b",
+      "nativeSearchNotMatchedBackground": "#00838F",
+      "parentBackground": "#<background>8b",
       "parentSearchNotMatchedBackground": "#757575",
-
-      "JVMFocusBackground":"#<background_highlights>",
+      "JVMFocusBackground": "#<background_highlights>",
       "JVMFocusSearchNotMatchedBackground": "#<background_highlights>",
       "nativeFocusBackground": "#<background_highlights>",
-      "nativeFocusSearchNotMatchedBackground":"#<background_highlights>",
-      "parentFocusBackground":"#<background_highlights>",
+      "nativeFocusSearchNotMatchedBackground": "#<background_highlights>",
+      "parentFocusBackground": "#<background_highlights>",
       "parentFocusSearchNotMatchedBackground": "#<background_highlights>",
-
-      "JVMFrameForeground":"#000000",
-      "nativeFrameForeground":"#000000",
-      "parentFrameForeground":"#000000",
-
+      "JVMFrameForeground": "#000000",
+      "nativeFrameForeground": "#000000",
+      "parentFrameForeground": "#000000",
       "JVMFocusedFrameForeground": "#<background>8b",
       "nativeFocusedFrameForeground": "#<background>8b",
       "parentFocusedFrameForeground": "#<background>8b"
@@ -130,43 +128,23 @@
     "Table.focusCellForeground": "#000000",
     
     "ToggleButton": {
-      "on.foreground":  "#<background>8b",
-      "off.foreground": "#<background>8b",
-      "buttonColor":  "#<background>8b",
+      "onForeground": "#<background>8b",
+      "offForeground": "#<background>8b",
+      "buttonColor": "#<background>8b",
       "borderColor": "#<background>8b"
     },
-
+    
     "ToolWindow": {
-      "header": {
+      "Header": {
+        "inactiveBackground": "#<background>",
         "background": "#<background>",
-        "border.background": "#<background_highlights>",
-        "tab.selected": {
-          "active.background": "#<secondary_text>FF",
-          "background": "#<background>FF"
-        },
-        "tab.hovered": {
-          "active.background": "#<secondary_text>FF",
-          "background": "#<background>FF"
-        }
+        "borderColor": "#<background_highlights>"
       },
-      "Button": {
-        "hoverBackground": "#<background_highlights>",
-        "selectedBackground": "#<background_highlights>",
-        "selectedForeground": "#<primary_text>"
-      }
-    },
-    "ToolWindow.darcula": {
-      "header": {
-        "background": "#<background>",
-        "border.background": "#<background_highlights>",
-        "tab.selected": {
-          "active.background": "#<secondary_text>FF",
-          "background": "#<background>FF"
-        },
-        "tab.hovered": {
-          "active.background": "#<secondary_text>FF",
-          "background": "#<background>FF"
-        }
+      "HeaderTab": {
+        "selectedBackground": "#<secondary_text>FF",
+        "selectedInactiveBackground": "#<background>FF",
+        "hoverBackground": "#<secondary_text>FF",
+        "hoverInactiveBackground": "#<background>FF"
       },
       "Button": {
         "hoverBackground": "#<background_highlights>",

@@ -2,7 +2,7 @@
   "name": "Solarized Dark",
   "dark": true,
   "author": "Tyler Thrailkill",
-  "editorScheme": "/themes/Solarized Dark.xml",
+  "editorScheme": "/themes/solarizedDark.xml",
   "ui": {
     "Borders": {
       "color": "#073642",
@@ -37,23 +37,23 @@
       "hoverBorderColor": "#002b36",
       "pressedBorderColor": "#002b36"
     },
-    "Button.darcula": {
-      "startColor": "#002b36",
-      "endColor": "#002b36",
-      "outlineStartColor": "#073642",
-      "outlineEndColor": "#073642",
-      "focusedOutlineColor": "#93a1a1",
-      "defaultStartColor": "#93a1a1",
-      "defaultEndColor": "#93a1a1",
-      "defaultOutlineColor": "#93a1a1",
-      "outlineDefaultStartColor": "#93a1a1",
-      "outlineDefaultEndColor": "#93a1a1",
-      "defaultFocusedOutlineColor": "#002b36",
-      "selectedButtonForeground": "#002b36",
-      "smallComboButtonBackground": "#002b36"
+    "Button": {
+      "startBackground": "#002b36",
+      "endBackground": "#002b36",
+      "startBorderColor": "#073642",
+      "endBorderColor": "#073642",
+      "focusedBorderColor": "#93a1a1",
+      "default": {
+        "startBackground": "#93a1a1",
+        "endBackground": "#93a1a1",
+        "startBorderColor": "#93a1a1",
+        "endBorderColor": "#93a1a1",
+        "focusedBorderColor": "#002b36",
+        "foreground": "#002b36"
+      }
     },
 
-    "ComboBox.darcula": {
+    "ComboBox": {
       "nonEditableBackground": "#002b36",
       "arrowButtonBackground": "#002b36",
       "editable.arrowButtonBackground": "#002b36",
@@ -75,6 +75,7 @@
       "active": {
         "foreground": "#839496",
         "background": "#073642",
+        "selectedBackground": "#002b36",
         "underlineColor": "#93a1a1"
       },
       "inactive.maskColor": "#073642FF"
@@ -84,21 +85,18 @@
       "JVMBackground": "#FFD333",
       "JVMSearchNotMatchedBackground": "#806919",
       "nativeBackground": "#93a1a1",
-      "nativeSearchNotMatchedBackground":"#00838F",
-      "parentBackground":"#002b368b",
+      "nativeSearchNotMatchedBackground": "#00838F",
+      "parentBackground": "#002b368b",
       "parentSearchNotMatchedBackground": "#757575",
-
-      "JVMFocusBackground":"#073642",
+      "JVMFocusBackground": "#073642",
       "JVMFocusSearchNotMatchedBackground": "#073642",
       "nativeFocusBackground": "#073642",
-      "nativeFocusSearchNotMatchedBackground":"#073642",
-      "parentFocusBackground":"#073642",
+      "nativeFocusSearchNotMatchedBackground": "#073642",
+      "parentFocusBackground": "#073642",
       "parentFocusSearchNotMatchedBackground": "#073642",
-
-      "JVMFrameForeground":"#000000",
-      "nativeFrameForeground":"#000000",
-      "parentFrameForeground":"#000000",
-
+      "JVMFrameForeground": "#000000",
+      "nativeFrameForeground": "#000000",
+      "parentFrameForeground": "#000000",
       "JVMFocusedFrameForeground": "#002b368b",
       "nativeFocusedFrameForeground": "#002b368b",
       "parentFocusedFrameForeground": "#002b368b"
@@ -130,43 +128,23 @@
     "Table.focusCellForeground": "#000000",
     
     "ToggleButton": {
-      "on.foreground":  "#002b368b",
-      "off.foreground": "#002b368b",
-      "buttonColor":  "#002b368b",
+      "onForeground": "#002b368b",
+      "offForeground": "#002b368b",
+      "buttonColor": "#002b368b",
       "borderColor": "#002b368b"
     },
-
+    
     "ToolWindow": {
-      "header": {
+      "Header": {
+        "inactiveBackground": "#002b36",
         "background": "#002b36",
-        "border.background": "#073642",
-        "tab.selected": {
-          "active.background": "#586e75FF",
-          "background": "#002b36FF"
-        },
-        "tab.hovered": {
-          "active.background": "#586e75FF",
-          "background": "#002b36FF"
-        }
+        "borderColor": "#073642"
       },
-      "Button": {
-        "hoverBackground": "#073642",
-        "selectedBackground": "#073642",
-        "selectedForeground": "#839496"
-      }
-    },
-    "ToolWindow.darcula": {
-      "header": {
-        "background": "#002b36",
-        "border.background": "#073642",
-        "tab.selected": {
-          "active.background": "#586e75FF",
-          "background": "#002b36FF"
-        },
-        "tab.hovered": {
-          "active.background": "#586e75FF",
-          "background": "#002b36FF"
-        }
+      "HeaderTab": {
+        "selectedBackground": "#586e75FF",
+        "selectedInactiveBackground": "#002b36FF",
+        "hoverBackground": "#586e75FF",
+        "hoverInactiveBackground": "#002b36FF"
       },
       "Button": {
         "hoverBackground": "#073642",
