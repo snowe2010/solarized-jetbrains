@@ -1,7 +1,7 @@
 <idea-plugin>
   <id>com.tylerthrailkill.intellij.solarized</id>
   <name>Solarized Theme</name>
-  <version>1.2</version>
+  <version>2.0</version>
   <vendor email="tyler.b.thrailkill@gmail.com" url="http://tylerthrailkill.com">Tyler Thrailkill</vendor>
 
   <description><![CDATA[
@@ -13,6 +13,7 @@
       <li>1.0   Initial release. Basic theme functionality.</li>
       <li>1.1   Change support to only 2019.1+ products. Change support to <em>all</em> JetBrains products</li>
       <li>1.2   Fix VCS colors</li>
+      <li>2.0   Major incompatibility between 2018.3 - 2019.1 versions. I was building on 2018.3 by accident.</li>
       </ul>
     ]]>
   </change-notes>
