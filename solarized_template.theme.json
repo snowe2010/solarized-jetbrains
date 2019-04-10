@@ -46,6 +46,7 @@
       "modifiedItemForeground": "#b279f2"
     },
 
+    "//": "affects buttons like the 'Play' or 'Debug' buttons",
     "ActionButton": {
       "hoverBackground": "#<background_highlights_lighter>",
       "hoverBorderColor": "#<background_highlights_lighter>",
