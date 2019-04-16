@@ -121,8 +121,8 @@
 
     "Editor": {
       "background": "#fdf6e3",
-      "foreground": "586e75",
-      "shortcutForeground": "#00a15f"
+      "foreground": "#586e75",
+      "shortcutForeground": "#2aa198"
     },
 
     "EditorPane.inactiveBackground": "#fdf6e3",
@@ -131,14 +131,14 @@
       "selectedForeground": "#657b83",
       "selectedBackground": "#eee8d5",
       "underlineColor": "#586e75",
-      "inactiveMaskColor": "#0d0d0d33",
+      "inactiveMaskColor": "#b5890033",
       "borderColor": "#657b83"
     },
 
     "FileColor": {
       "Yellow": "#b5890066",
-      "Green": "#2aa19866",
-      "Blue": "#04a103",
+      "Green": "#baebda",
+      "Blue": "#2aa198",
       "Violet": "#6c71c4",
       "Orange": "#cb4b16",
       "Rose": "#dc322f"

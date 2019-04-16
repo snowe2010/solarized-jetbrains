@@ -121,7 +121,7 @@
 
     "Editor": {
       "background": "#<background>",
-      "foreground": "<emphasized_content>",
+      "foreground": "#<emphasized_content>",
       "shortcutForeground": "#2aa198"
     },
 
@@ -131,7 +131,7 @@
       "selectedForeground": "#<primary_text>",
       "selectedBackground": "#<background_highlights>",
       "underlineColor": "#<emphasized_content>",
-      "inactiveMaskColor": "#0d0d0d33",
+      "inactiveMaskColor": "#<mask_color>33",
       "borderColor": "#<primary_text>"
     },
 

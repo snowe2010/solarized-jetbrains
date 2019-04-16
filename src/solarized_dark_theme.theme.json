@@ -121,7 +121,7 @@
 
     "Editor": {
       "background": "#002b36",
-      "foreground": "93a1a1",
+      "foreground": "#93a1a1",
       "shortcutForeground": "#2aa198"
     },
 

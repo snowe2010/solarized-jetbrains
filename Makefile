@@ -18,7 +18,8 @@ all:
 	    s/<blue>/2aa198/g; \
 	    s/<violet>/6c71c4/g; \
 	    s/<orange>/cb4b16/g; \
-	    s/<rose>/dc322f/g;' \
+	    s/<rose>/dc322f/g; \
+	    s/<mask_color>/0d0d0d/g;' \
 	    solarized_template.theme.json > src/solarized_dark_theme.theme.json
 	sed 's/<color>/Light/g; \
 	    s/"<dark>"/false/g; \
@@ -35,11 +36,12 @@ all:
 	    s/<inverse_secondary_text>/586e75/g; \
 	    s/<inverse_emphasized_content>/93a1a1/g; \
 	    s/<yellow>/b5890066/g; \
-	    s/<green>/2aa19866/g; \
+	    s/<green>/baebda/g; \
 	    s/<blue>/2aa198/g; \
 	    s/<violet>/6c71c4/g; \
 	    s/<orange>/cb4b16/g; \
-	    s/<rose>/dc322f/g;' \
+	    s/<rose>/dc322f/g; \
+	    s/<mask_color>/b58900/g;' \
 	    solarized_template.theme.json > src/solarized_light_theme.theme.json
 
 clean:
