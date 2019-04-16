@@ -13,7 +13,7 @@ all:
 	    s/<inverse_primary_text>/657b83/g; \
 	    s/<inverse_secondary_text>/93a1a1/g; \
 	    s/<inverse_emphasized_content>/586e75/g; \
-	    s/<yellow>/b58900/g; \
+	    s/<yellow>/074855/g; \
 	    s/<green>/213d37/g; \
 	    s/<blue>/2aa198/g; \
 	    s/<violet>/6c71c4/g; \
@@ -34,7 +34,7 @@ all:
 	    s/<inverse_primary_text>/839496/g; \
 	    s/<inverse_secondary_text>/586e75/g; \
 	    s/<inverse_emphasized_content>/93a1a1/g; \
-	    s/<yellow>/b58900aa/g; \
+	    s/<yellow>/b5890066/g; \
 	    s/<green>/213d37/g; \
 	    s/<blue>/2aa198/g; \
 	    s/<violet>/6c71c4/g; \

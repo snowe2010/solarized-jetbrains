@@ -7,6 +7,32 @@
     <property name="originalScheme">Solarized Dark</property>
   </metaInfo>
   <colors>
+    <option name="ScrollBar.background" value="073642"/>
+    <option name="ScrollBar.trackColor" value="073642"/>
+    <option name="ScrollBar.thumbColor" value="2aa198"/>
+    <option name="ScrollBar.thumbBorderColor" value="2aa198"/>
+    <option name="ScrollBar.hoverTrackColor" value="073642"/>
+    <option name="ScrollBar.hoverThumbColor" value="2aa198"/>
+    <option name="ScrollBar.hoverThumbBorderColor" value="2aa198"/>
+    <option name="ScrollBar.Transparent.trackColor" value="2aa1985A"/>
+    <option name="ScrollBar.Transparent.thumbColor" value="2aa198BE"/>
+    <option name="ScrollBar.Transparent.thumbBorderColor" value="2aa198BE"/>
+    <option name="ScrollBar.Transparent.hoverTrackColor" value="2aa1985A"/>
+    <option name="ScrollBar.Transparent.hoverThumbColor" value="2aa198BE"/>
+    <option name="ScrollBar.Transparent.hoverThumbBorderColor" value="2aa198BE"/>
+    <option name="ScrollBar.Mac.trackColor" value="073642"/>
+    <option name="ScrollBar.Mac.thumbColor" value="2aa198"/>
+    <option name="ScrollBar.Mac.thumbBorderColor" value="2aa198"/>
+    <option name="ScrollBar.Mac.hoverTrackColor" value="073642"/>
+    <option name="ScrollBar.Mac.hoverThumbColor" value="2aa198"/>
+    <option name="ScrollBar.Mac.hoverThumbBorderColor" value="2aa198"/>
+    <option name="ScrollBar.Mac.Transparent.trackColor" value="2aa1985A"/>
+    <option name="ScrollBar.Mac.Transparent.thumbColor" value="2aa198BE"/>
+    <option name="ScrollBar.Mac.Transparent.thumbBorderColor" value="2aa198BE"/>
+    <option name="ScrollBar.Mac.Transparent.hoverTrackColor" value="2aa1985A"/>
+    <option name="ScrollBar.Mac.Transparent.hoverThumbColor" value="2aa198BE"/>
+    <option name="ScrollBar.Mac.Transparent.hoverThumbBorderColor" value="2aa198BE"/>
+    
     <option name="ADDED_LINES_COLOR" value="baffba" />
     <option name="ANNOTATIONS_COLOR" value="586e75" />
     <option name="ANNOTATIONS_MERGED_COLOR" value="2aa198" />
