@@ -9,14 +9,14 @@
       "background": "#<background_highlights>",
       "foreground": "#<primary_text>",
 
-      "infoForeground": "#6d6a80",
+      "infoForeground": "#<secondary_text>",
 
       "selectionBackground": "#<inverse_emphasized_content>",
       "selectionForeground": "#<inverse_background>",
       "selectionInactiveBackground": "#<background_highlights>",
       "selectionBackgroundInactive": "#<background_highlights>",
 
-      "lightSelectionBackground": "#3a324a",
+      "lightSelectionBackground": "#<background_highlights_lighter>",
       "lightSelectionForeground": "#<primary_text>",
       "lightSelectionInactiveBackground": "#<background_highlights>",
       "lightSelectionInactiveForeground":"#<primary_text>",
@@ -39,7 +39,7 @@
       "focusColor": "#778282",
       "focusedBorderColor": "#93a1a1",
 
-      "separatorForeground": "#6d6a80",
+      "separatorForeground": "#<secondary_text>",
       "separatorColor": "#<background_highlights_lighter>",
       "lineSeparatorColor": "#55506b",
 
@@ -82,7 +82,7 @@
       "nonEditableBackground": "#073642",
       "background": "#073642ab",
       "ArrowButton": {
-        "iconColor": "#9A97A8",
+        "iconColor": "#<emphasized_content>",
         "disabledIconColor": "#454554",
         "nonEditableBackground": "#073642"
       }
@@ -120,9 +120,9 @@
     },
 
     "Editor": {
-      "background": "#1D1D26",
-      "foreground": "#6d6a80",
-      "shortcutForeground": "#6E86FF"
+      "background": "#<background>",
+      "foreground": "<emphasized_content>",
+      "shortcutForeground": "#2aa198"
     },
 
     "EditorPane.inactiveBackground": "#<background>",
@@ -207,8 +207,8 @@
         "installFillForeground": "#<primary_text>",
         "installFillBackground": "#713a91",
         "updateForeground":"#<primary_text>",
-        "updateBackground": "#713a91",
-        "updateBorderColor": "#713a91"
+        "updateBackground": "#<background_highlights_lighter>",
+        "updateBorderColor": "#<secondary_text>"
       }
     },
 
@@ -217,7 +217,7 @@
       "borderColor": "#<background_highlights_lighter>",
       "inactiveBorderColor": "#<background_highlights>",
       "Toolbar.borderColor": "#1a1721",
-      "Header.activeBackground": "#453A5C",
+      "Header.activeBackground": "#<background_highlights_lighter>",
       "Header.inactiveBackground": "#<background_highlights_lighter>",
       "Advertiser": {
         "foreground": "#<secondary_text>",
@@ -280,7 +280,7 @@
     "Table.stripeColor": "#004456",
 
     "TextArea": {
-      "background": "#3A384D",
+      "background": "#<background_highlights>",
       "selectionBackground": "#073642"
     },
 
