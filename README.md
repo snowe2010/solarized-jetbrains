@@ -18,8 +18,5 @@ should include `make` as part of the build.
 # ToDo
 
 * (dark) fix startup background color
-* (dark) fix test tab color
-* fix inactive pane selected color (select project in project pane then to editor pane)
-* (dark) fix Preferences > Plugins background color
-* (light) fix Preferences > Plugins header color
 * fix Markdown preview background
+
