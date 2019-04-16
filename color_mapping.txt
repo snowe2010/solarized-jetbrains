@@ -1,0 +1,44 @@
+$base03:    #002b36;   dark background
+$base02:    #073642;   dark background highlights
+            #074855;   shade 1 background highlights
+            #0A677A;   shade 2 background highlights
+$base01:    #586e75;   comments / secondary content
+$base00:    #657b83;   
+$base0:     #839496;   body text / default text / primary content
+$base1:     #93a1a1;   optional emphasized content
+$base2:     #eee8d5;
+$base3:     #fdf6e3;   
+
+yellow    #b58900  3/3 yellow   136 #af8700 60  10  65 181 137   0  45 100  71
+orange    #cb4b16  9/3 brred    166 #d75f00 50  50  55 203  75  22  18  89  80
+red       #dc322f  1/1 red      160 #d70000 50  65  45 220  50  47   1  79  86
+magenta   #d33682  5/5 magenta  125 #af005f 50  65 -05 211  54 130 331  74  83
+violet    #6c71c4 13/5 brmagenta 61 #5f5faf 50  15 -45 108 113 196 237  45  77
+blue      #268bd2  4/4 blue      33 #0087ff 55 -10 -45  38 139 210 205  82  82
+cyan      #2aa198  6/6 cyan      37 #00afaf 60 -35 -05  42 161 152 175  74  63
+green     #859900  2/2 green     64 #5f8700 60 -20  65 133 153   0  68 100  60
+
+
+$base03:    #002b36;
+$base02:    #073642;
+$base01:    #586e75; emphasized content
+$base00:    #657b83; body text
+$base0:     #839496;
+$base1:     #93a1a1; comments
+            #A4A092; shade 2     
+            #cdc8b7; shade 1     
+$base2:     #eee8d5; light background highlights
+$base3:     #fdf6e3; light background
+
+
+#<background>
+#<background_highlights>
+#<background_highlights_lighter>
+#<primary_text>
+#<secondary_text>
+#<emphasized_content>
+#<inverse_background>
+#<inverse_background_highlights>
+#<inverse_primary_text>
+#<inverse_secondary_text>
+#<inverse_emphasized_content>
