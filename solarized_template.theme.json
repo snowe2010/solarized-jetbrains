@@ -374,9 +374,9 @@
       "Checkbox.Focus.Wide.Dark": "#93a1a1",
       "Checkbox.Focus.Thin.Default.Dark": "#<primary_text>",
       "Checkbox.Focus.Thin.Selected.Dark": "#<primary_text>",
-      "Checkbox.Background.Disabled.Dark": "#2C2C3B",
-      "Checkbox.Border.Disabled.Dark": "#4c4766",
-      "Checkbox.Foreground.Disabled.Dark": "#565073"
+      "Checkbox.Background.Disabled.Dark": "#<background_highlights>",
+      "Checkbox.Border.Disabled.Dark": "#<background_highlights_lighter>",
+      "Checkbox.Foreground.Disabled.Dark": "#<secondary_text>"
     }
   }
 }
