@@ -63,10 +63,10 @@
 
       "default": {
         "foreground": "#002b36",
-        "startBackground": "#076C78",
-        "endBackground": "#076C78",
-        "startBorderColor": "#145c8ec3",
-        "endBorderColor": "#145c8ec3",
+        "startBackground": "#A4A092",
+        "endBackground": "#A4A092",
+        "startBorderColor": "#A4A092c3",
+        "endBorderColor": "#A4A092c3",
         "focusedBorderColor": "#657b83",
         "focusColor": "#778282",
         "shadowColor": "#fdf6e3"
@@ -79,12 +79,12 @@
     },
     "COMMENT:": "you can put comments in like this",
     "ComboBox": {
-      "nonEditableBackground": "#073642",
-      "background": "#073642ab",
+      "nonEditableBackground": "#cdc8b7",
+      "background": "#eee8d5ab",
       "ArrowButton": {
         "iconColor": "#586e75",
-        "disabledIconColor": "#454554",
-        "nonEditableBackground": "#073642"
+        "disabledIconColor": "#657b83",
+        "nonEditableBackground": "#cdc8b7"
       }
     },
 
@@ -132,16 +132,16 @@
       "selectedBackground": "#eee8d5",
       "underlineColor": "#586e75",
       "inactiveMaskColor": "#0d0d0d33",
-      "borderColor": "#1a1721"
+      "borderColor": "#657b83"
     },
 
     "FileColor": {
-      "Yellow": "#004456",
+      "Yellow": "#b58900aa",
       "Green": "#213d37",
-      "Blue": "#1f3557",
-      "Violet": "#2a2754",
-      "Orange": "#402e23",
-      "Rose": "#4a2d59"
+      "Blue": "#2aa198",
+      "Violet": "#6c71c4",
+      "Orange": "#cb4b16",
+      "Rose": "#dc322f"
     },
 
     "InplaceRefactoringPopup.borderColor": "#474359",
@@ -277,16 +277,16 @@
 
     "TableHeader.cellBorder": "3,0,3,0",
 
-    "Table.stripeColor": "#004456",
+    "Table.stripeColor": "#cdc8b7",
 
     "TextArea": {
       "background": "#eee8d5",
-      "selectionBackground": "#073642"
+      "selectionBackground": "#A4A092"
     },
 
     "TextField": {
-      "background": "#073642",
-      "selectionBackground": "#073642"
+      "background": "#eee8d5",
+      "selectionBackground": "#A4A092"
     },
 
     "ToggleButton": {

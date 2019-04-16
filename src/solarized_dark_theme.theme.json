@@ -63,10 +63,10 @@
 
       "default": {
         "foreground": "#fdf6e3",
-        "startBackground": "#076C78",
-        "endBackground": "#076C78",
-        "startBorderColor": "#145c8ec3",
-        "endBorderColor": "#145c8ec3",
+        "startBackground": "#0A677A",
+        "endBackground": "#0A677A",
+        "startBorderColor": "#0A677Ac3",
+        "endBorderColor": "#0A677Ac3",
         "focusedBorderColor": "#839496",
         "focusColor": "#778282",
         "shadowColor": "#002b36"
@@ -79,12 +79,12 @@
     },
     "COMMENT:": "you can put comments in like this",
     "ComboBox": {
-      "nonEditableBackground": "#073642",
+      "nonEditableBackground": "#074855",
       "background": "#073642ab",
       "ArrowButton": {
         "iconColor": "#93a1a1",
-        "disabledIconColor": "#454554",
-        "nonEditableBackground": "#073642"
+        "disabledIconColor": "#839496",
+        "nonEditableBackground": "#074855"
       }
     },
 
@@ -132,16 +132,16 @@
       "selectedBackground": "#073642",
       "underlineColor": "#93a1a1",
       "inactiveMaskColor": "#0d0d0d33",
-      "borderColor": "#1a1721"
+      "borderColor": "#839496"
     },
 
     "FileColor": {
-      "Yellow": "#004456",
+      "Yellow": "#b58900",
       "Green": "#213d37",
-      "Blue": "#1f3557",
-      "Violet": "#2a2754",
-      "Orange": "#402e23",
-      "Rose": "#4a2d59"
+      "Blue": "#2aa198",
+      "Violet": "#6c71c4",
+      "Orange": "#cb4b16",
+      "Rose": "#dc322f"
     },
 
     "InplaceRefactoringPopup.borderColor": "#474359",
@@ -277,16 +277,16 @@
 
     "TableHeader.cellBorder": "3,0,3,0",
 
-    "Table.stripeColor": "#004456",
+    "Table.stripeColor": "#074855",
 
     "TextArea": {
       "background": "#073642",
-      "selectionBackground": "#073642"
+      "selectionBackground": "#0A677A"
     },
 
     "TextField": {
       "background": "#073642",
-      "selectionBackground": "#073642"
+      "selectionBackground": "#0A677A"
     },
 
     "ToggleButton": {

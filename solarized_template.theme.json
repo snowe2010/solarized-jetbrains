@@ -16,7 +16,7 @@
       "selectionInactiveBackground": "#<background_highlights>",
       "selectionBackgroundInactive": "#<background_highlights>",
 
-      "lightSelectionBackground": "#<background_highlights_lighter>",
+      "lightSelectionBackground": "#<background_highlights_shade_1>",
       "lightSelectionForeground": "#<primary_text>",
       "lightSelectionInactiveBackground": "#<background_highlights>",
       "lightSelectionInactiveForeground":"#<primary_text>",
@@ -40,7 +40,7 @@
       "focusedBorderColor": "#93a1a1",
 
       "separatorForeground": "#<secondary_text>",
-      "separatorColor": "#<background_highlights_lighter>",
+      "separatorColor": "#<background_highlights_shade_1>",
       "lineSeparatorColor": "#55506b",
 
       "modifiedItemForeground": "#b279f2"
@@ -48,25 +48,25 @@
 
     "//": "affects buttons like the 'Play' or 'Debug' buttons",
     "ActionButton": {
-      "hoverBackground": "#<background_highlights_lighter>",
-      "hoverBorderColor": "#<background_highlights_lighter>",
-      "pressedBackground": "#<background_highlights_lighter>",
-      "pressedBorderColor": "#<background_highlights_lighter>"
+      "hoverBackground": "#<background_highlights_shade_1>",
+      "hoverBorderColor": "#<background_highlights_shade_1>",
+      "pressedBackground": "#<background_highlights_shade_1>",
+      "pressedBorderColor": "#<background_highlights_shade_1>"
     },
 
     "Button": {
-      "startBackground": "#<background_highlights_lighter>",
-      "endBackground": "#<background_highlights_lighter>",
+      "startBackground": "#<background_highlights_shade_1>",
+      "endBackground": "#<background_highlights_shade_1>",
       "startBorderColor": "#<emphasized_content>",
       "endBorderColor": "#<emphasized_content>",
       "shadowColor": "#<background>",
 
       "default": {
         "foreground": "#<inverse_background>",
-        "startBackground": "#076C78",
-        "endBackground": "#076C78",
-        "startBorderColor": "#145c8ec3",
-        "endBorderColor": "#145c8ec3",
+        "startBackground": "#<background_highlights_shade_2>",
+        "endBackground": "#<background_highlights_shade_2>",
+        "startBorderColor": "#<background_highlights_shade_2>c3",
+        "endBorderColor": "#<background_highlights_shade_2>c3",
         "focusedBorderColor": "#<primary_text>",
         "focusColor": "#778282",
         "shadowColor": "#<background>"
@@ -79,12 +79,12 @@
     },
     "COMMENT:": "you can put comments in like this",
     "ComboBox": {
-      "nonEditableBackground": "#073642",
-      "background": "#073642ab",
+      "nonEditableBackground": "#<background_highlights_shade_1>",
+      "background": "#<background_highlights>ab",
       "ArrowButton": {
         "iconColor": "#<emphasized_content>",
-        "disabledIconColor": "#454554",
-        "nonEditableBackground": "#073642"
+        "disabledIconColor": "#<primary_text>",
+        "nonEditableBackground": "#<background_highlights_shade_1>"
       }
     },
 
@@ -111,7 +111,7 @@
 
     "DebuggerPopup.borderColor": "#524e66",
 
-    "DebuggerTabs.selectedBackground": "#<background_highlights_lighter>",
+    "DebuggerTabs.selectedBackground": "#<background_highlights_shade_1>",
 
     "DragAndDrop": {
       "areaForeground": "#<primary_text>",
@@ -132,16 +132,16 @@
       "selectedBackground": "#<background_highlights>",
       "underlineColor": "#<emphasized_content>",
       "inactiveMaskColor": "#0d0d0d33",
-      "borderColor": "#1a1721"
+      "borderColor": "#<primary_text>"
     },
 
     "FileColor": {
-      "Yellow": "#004456",
-      "Green": "#213d37",
-      "Blue": "#1f3557",
-      "Violet": "#2a2754",
-      "Orange": "#402e23",
-      "Rose": "#4a2d59"
+      "Yellow": "#<yellow>",
+      "Green": "#<green>",
+      "Blue": "#<blue>",
+      "Violet": "#<violet>",
+      "Orange": "#<orange>",
+      "Rose": "#<rose>"
     },
 
     "InplaceRefactoringPopup.borderColor": "#474359",
@@ -156,7 +156,7 @@
     "NavBar.borderColor": "#1a1721",
 
     "Notification": {
-      "background": "#<background_highlights_lighter>",
+      "background": "#<background_highlights_shade_1>",
       "borderColor": "#<background_highlights>",
 
       "errorForeground": "#<primary_text>",
@@ -181,7 +181,7 @@
     },
 
     "ParameterInfo": {
-      "background": "#<background_highlights_lighter>",
+      "background": "#<background_highlights_shade_1>",
       "foreground": "#<primary_text>",
       "infoForeground": "ababb3",
       "currentOverloadBackground": "#6A6173",
@@ -191,37 +191,37 @@
     "Plugins": {
       "Tab": {
         "selectedForeground": "#<primary_text>",
-        "selectedBackground": "#<background_highlights_lighter>",
-        "hoverBackground": "#<background_highlights_lighter>"
+        "selectedBackground": "#<background_highlights_shade_1>",
+        "hoverBackground": "#<background_highlights_shade_1>"
       },
 
       "SearchField.borderColor": "#<emphasized_content>",
       "SearchField.background": "#<background>",
       "SectionHeader.background": "#<background_highlights>",
-      "tagBackground": "#<background_highlights_lighter>",
+      "tagBackground": "#<background_highlights_shade_1>",
       "tagForeground": "#<primary_text>",
 
       "Button": {
         "installForeground": "#<primary_text>",
-        "installBorderColor":"#<background_highlights_lighter>",
+        "installBorderColor":"#<background_highlights_shade_1>",
         "installFillForeground": "#<primary_text>",
         "installFillBackground": "#713a91",
         "updateForeground":"#<primary_text>",
-        "updateBackground": "#<background_highlights_lighter>",
+        "updateBackground": "#<background_highlights_shade_1>",
         "updateBorderColor": "#<secondary_text>"
       }
     },
 
     "Popup": {
       "paintBorder": true,
-      "borderColor": "#<background_highlights_lighter>",
+      "borderColor": "#<background_highlights_shade_1>",
       "inactiveBorderColor": "#<background_highlights>",
       "Toolbar.borderColor": "#1a1721",
-      "Header.activeBackground": "#<background_highlights_lighter>",
-      "Header.inactiveBackground": "#<background_highlights_lighter>",
+      "Header.activeBackground": "#<background_highlights_shade_1>",
+      "Header.inactiveBackground": "#<background_highlights_shade_1>",
       "Advertiser": {
         "foreground": "#<secondary_text>",
-        "borderColor": "#<background_highlights_lighter>",
+        "borderColor": "#<background_highlights_shade_1>",
         "borderInsets": "4,8,3,0"
       }
     },
@@ -246,7 +246,7 @@
       "Header.background": "#<background_highlights>",
       "Tab": {
         "selectedForeground": "#<primary_text>",
-        "selectedBackground": "#<background_highlights_lighter>"
+        "selectedBackground": "#<background_highlights_shade_1>"
       },
       "SearchField":{
         "background": "#<background>",
@@ -277,16 +277,16 @@
 
     "TableHeader.cellBorder": "3,0,3,0",
 
-    "Table.stripeColor": "#004456",
+    "Table.stripeColor": "#<background_highlights_shade_1>",
 
     "TextArea": {
       "background": "#<background_highlights>",
-      "selectionBackground": "#073642"
+      "selectionBackground": "#<background_highlights_shade_2>"
     },
 
     "TextField": {
-      "background": "#073642",
-      "selectionBackground": "#073642"
+      "background": "#<background_highlights>",
+      "selectionBackground": "#<background_highlights_shade_2>"
     },
 
     "ToggleButton": {
@@ -299,13 +299,13 @@
     },
 
     "ToolTip": {
-      "background": "#<background_highlights_lighter>",
+      "background": "#<background_highlights_shade_1>",
       "Actions.background": "#323245"
     },
 
     "ToolWindow": {
       "Header": {
-        "background": "#<background_highlights_lighter>",
+        "background": "#<background_highlights_shade_1>",
         "inactiveBackground": "#<background_highlights>",
         "borderColor": "#1a1721"
       },
@@ -318,8 +318,8 @@
       },
 
       "Button": {
-        "hoverBackground": "#<background_highlights_lighter>",
-        "selectedBackground": "#<background_highlights_lighter>",
+        "hoverBackground": "#<background_highlights_shade_1>",
+        "selectedBackground": "#<background_highlights_shade_1>",
         "selectedForeground": "#<primary_text>"
       }
     },
@@ -368,14 +368,14 @@
       "Objects.YellowDark": "#988c26",
       "Objects.GreenAndroid": "#78c257",
 
-      "Checkbox.Background.Default.Dark": "#<background_highlights_lighter>",
+      "Checkbox.Background.Default.Dark": "#<background_highlights_shade_1>",
       "Checkbox.Border.Default.Dark": "#<secondary_text>",
       "Checkbox.Foreground.Selected.Dark": "#a4a1b3",
       "Checkbox.Focus.Wide.Dark": "#93a1a1",
       "Checkbox.Focus.Thin.Default.Dark": "#<primary_text>",
       "Checkbox.Focus.Thin.Selected.Dark": "#<primary_text>",
       "Checkbox.Background.Disabled.Dark": "#<background_highlights>",
-      "Checkbox.Border.Disabled.Dark": "#<background_highlights_lighter>",
+      "Checkbox.Border.Disabled.Dark": "#<background_highlights_shade_1>",
       "Checkbox.Foreground.Disabled.Dark": "#<secondary_text>"
     }
   }
