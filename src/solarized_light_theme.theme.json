@@ -122,7 +122,7 @@
     "Editor": {
       "background": "#fdf6e3",
       "foreground": "586e75",
-      "shortcutForeground": "#2aa198"
+      "shortcutForeground": "#00a15f"
     },
 
     "EditorPane.inactiveBackground": "#fdf6e3",
@@ -137,8 +137,8 @@
 
     "FileColor": {
       "Yellow": "#b5890066",
-      "Green": "#213d37",
-      "Blue": "#2aa198",
+      "Green": "#2aa19866",
+      "Blue": "#04a103",
       "Violet": "#6c71c4",
       "Orange": "#cb4b16",
       "Rose": "#dc322f"
