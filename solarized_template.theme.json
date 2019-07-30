@@ -324,7 +324,10 @@
       }
     },
 
-    "Tree.rowHeight": 20,
+    "Tree": {
+      "rowHeight": 20,
+      "background": "#<background_empty>"
+    },
 
     "ValidationTooltip": {
       "errorBackground": "#802d43",

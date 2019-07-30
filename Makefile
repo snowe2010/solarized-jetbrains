@@ -5,6 +5,7 @@ all:
 	    s/<background_highlights_shade_1>/074855/g; \
 	    s/<background_highlights_shade_2>/0A677A/g; \
 	    s/<background>/002b36/g; \
+	    s/<background_empty>/00212c/g; \
 	    s/<primary_text>/839496/g; \
 	    s/<secondary_text>/586e75/g; \
 	    s/<emphasized_content>/93a1a1/g; \
@@ -27,6 +28,7 @@ all:
 	    s/<background_highlights_shade_1>/cdc8b7/g; \
 	    s/<background_highlights_shade_2>/A4A092/g; \
 	    s/<background>/fdf6e3/g; \
+	    s/<background_empty>/eee8d4/g; \
 	    s/<primary_text>/657b83/g; \
 	    s/<secondary_text>/93a1a1/g; \
 	    s/<emphasized_content>/586e75/g; \
