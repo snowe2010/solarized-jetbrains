@@ -111,7 +111,16 @@
 
     "DebuggerPopup.borderColor": "#524e66",
 
-    "DebuggerTabs.selectedBackground": "#<background_highlights_shade_1>",
+    "DefaultTabs": {
+      "background": "#<background_highlights_shade_1>",
+      "borderColor": "#<background_highlights_shade_1>",
+      "hoverBackground": "#<background_highlights_shade_2>",
+      "inactiveUnderlineColor": "#<background_highlights>",
+      "underlineColor": "#<background_highlights_shade_2>",
+      "underlinedTabBackground": "#<background_highlights>",
+      "underlinedTabForeground": "#<primary_text>",
+      "underlineHeight": 5
+    },
 
     "DragAndDrop": {
       "areaForeground": "#<primary_text>",
@@ -128,11 +137,15 @@
     "EditorPane.inactiveBackground": "#<background>",
 
     "EditorTabs": {
-      "selectedForeground": "#<primary_text>",
-      "selectedBackground": "#<background_highlights>",
-      "underlineColor": "#<emphasized_content>",
-      "inactiveMaskColor": "#<mask_color>33",
-      "borderColor": "#<primary_text>"
+      "borderColor": "#<background_highlights>",
+      "underlineColor": "#<background_highlights_shade_2>",
+      "inactiveUnderlineColor":  "#<background_highlights_shade_2>",
+      "background": "#<background_highlights_shade_1>",
+      "underlinedTabBackground": "#<background_highlights>",
+      "hoverMaskColor": "#<background_highlights_shade_2>",
+      "underlinedTabForeground": "#<primary_text>",
+      "inactiveColoredFileBackground": "#<background_highlights_shade_1>",
+      "underlineHeight": 5
     },
 
     "FileColor": {
@@ -189,12 +202,6 @@
     },
 
     "Plugins": {
-      "Tab": {
-        "selectedForeground": "#<primary_text>",
-        "selectedBackground": "#<background_highlights_shade_1>",
-        "hoverBackground": "#<background_highlights_shade_1>"
-      },
-
       "SearchField.borderColor": "#<emphasized_content>",
       "SearchField.background": "#<background>",
       "SectionHeader.background": "#<background_highlights>",
@@ -270,9 +277,14 @@
     "StatusBar.borderColor": "#1a1721",
 
     "TabbedPane": {
-      "underlineColor": "#073642",
-      "disabledUnderlineColor": "#5e5b6b",
-      "contentAreaColor": "#1a1721"
+      "underlineColor": "#<background_highlights_shade_2>",
+      "disabledUnderlineColor": "#<background_highlights_shade_2>",
+      "contentAreaColor": "#<background_highlights>",
+      "background": "#<background_highlights_shade_1>",
+      "foreground": "#<primary_text>",
+      "disabledForeground": "#<primary_text>",
+      "focusColor": "#<background_highlights>",
+      "hoverColor": "#<background_highlights_shade_2>"
     },
 
     "TableHeader.cellBorder": "3,0,3,0",

@@ -111,7 +111,16 @@
 
     "DebuggerPopup.borderColor": "#524e66",
 
-    "DebuggerTabs.selectedBackground": "#cdc8b7",
+    "DefaultTabs": {
+      "background": "#cdc8b7",
+      "borderColor": "#cdc8b7",
+      "hoverBackground": "#A4A092",
+      "inactiveUnderlineColor": "#eee8d5",
+      "underlineColor": "#A4A092",
+      "underlinedTabBackground": "#eee8d5",
+      "underlinedTabForeground": "#657b83",
+      "underlineHeight": 5
+    },
 
     "DragAndDrop": {
       "areaForeground": "#657b83",
@@ -128,11 +137,15 @@
     "EditorPane.inactiveBackground": "#fdf6e3",
 
     "EditorTabs": {
-      "selectedForeground": "#657b83",
-      "selectedBackground": "#eee8d5",
-      "underlineColor": "#586e75",
-      "inactiveMaskColor": "#b5890033",
-      "borderColor": "#657b83"
+      "borderColor": "#eee8d5",
+      "underlineColor": "#A4A092",
+      "inactiveUnderlineColor":  "#A4A092",
+      "background": "#cdc8b7",
+      "underlinedTabBackground": "#eee8d5",
+      "hoverMaskColor": "#A4A092",
+      "underlinedTabForeground": "#657b83",
+      "inactiveColoredFileBackground": "#cdc8b7",
+      "underlineHeight": 5
     },
 
     "FileColor": {
@@ -189,12 +202,6 @@
     },
 
     "Plugins": {
-      "Tab": {
-        "selectedForeground": "#657b83",
-        "selectedBackground": "#cdc8b7",
-        "hoverBackground": "#cdc8b7"
-      },
-
       "SearchField.borderColor": "#586e75",
       "SearchField.background": "#fdf6e3",
       "SectionHeader.background": "#eee8d5",
@@ -270,9 +277,14 @@
     "StatusBar.borderColor": "#1a1721",
 
     "TabbedPane": {
-      "underlineColor": "#073642",
-      "disabledUnderlineColor": "#5e5b6b",
-      "contentAreaColor": "#1a1721"
+      "underlineColor": "#A4A092",
+      "disabledUnderlineColor": "#A4A092",
+      "contentAreaColor": "#eee8d5",
+      "background": "#cdc8b7",
+      "foreground": "#657b83",
+      "disabledForeground": "#657b83",
+      "focusColor": "#eee8d5",
+      "hoverColor": "#A4A092"
     },
 
     "TableHeader.cellBorder": "3,0,3,0",
