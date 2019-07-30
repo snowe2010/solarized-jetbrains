@@ -343,8 +343,12 @@
 
     "WelcomeScreen": {
       "comments": "#713a91",
-      "Projects.selectionInactiveBackground": "#09D900",
-      "separatorColor": "#1a1721"
+      "separatorColor": "#eee8d5",
+      "Projects": {
+        "background": "#eee8d5",
+        "selectionBackground": "#cdc8b7",
+        "selectionInactiveBackground": "#cdc8b7"
+      }
     }
   },
   "icons": {
