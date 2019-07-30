@@ -13,8 +13,8 @@
 
       "selectionBackground": "#93a1a1",
       "selectionForeground": "#002b36",
-      "selectionInactiveBackground": "#eee8d5",
-      "selectionBackgroundInactive": "#eee8d5",
+      "selectionInactiveBackground": "#cdc8b7",
+      "selectionBackgroundInactive": "#cdc8b7",
 
       "lightSelectionBackground": "#cdc8b7",
       "lightSelectionForeground": "#657b83",
