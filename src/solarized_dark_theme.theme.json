@@ -138,14 +138,14 @@
 
     "EditorTabs": {
       "borderColor": "#073642",
-      "underlineColor": "#0A677A",
-      "inactiveUnderlineColor":  "#0A677A",
+      "underlineColor": "#073642",
+      "inactiveUnderlineColor":  "#002b36",
       "background": "#074855",
-      "underlinedTabBackground": "#073642",
+      "underlinedTabBackground": "#002b36",
       "hoverMaskColor": "#0A677A",
       "underlinedTabForeground": "#839496",
       "inactiveColoredFileBackground": "#074855",
-      "underlineHeight": 5
+      "underlineHeight": 0
     },
 
     "FileColor": {
@@ -191,6 +191,10 @@
         "errorBackground": "#802d43",
         "errorBorderColor": "#4d1c2b"
       }
+    },
+
+    "Panel": {
+      "background": "#002b36"
     },
 
     "ParameterInfo": {
