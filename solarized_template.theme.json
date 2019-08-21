@@ -13,8 +13,8 @@
 
       "selectionBackground": "#<inverse_emphasized_content>",
       "selectionForeground": "#<inverse_background>",
-      "selectionInactiveBackground": "#<background_highlights>",
-      "selectionBackgroundInactive": "#<background_highlights>",
+      "selectionInactiveBackground": "#<background_highlights_shade_1>",
+      "selectionBackgroundInactive": "#<background_highlights_shade_1>",
 
       "lightSelectionBackground": "#<background_highlights_shade_1>",
       "lightSelectionForeground": "#<primary_text>",
