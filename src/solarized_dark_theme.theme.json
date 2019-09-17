@@ -111,7 +111,16 @@
 
     "DebuggerPopup.borderColor": "#524e66",
 
-    "DebuggerTabs.selectedBackground": "#074855",
+    "DefaultTabs": {
+      "background": "#074855",
+      "borderColor": "#074855",
+      "hoverBackground": "#0A677A",
+      "inactiveUnderlineColor": "#0A677A",
+      "underlineColor": "#0A677A",
+      "underlinedTabBackground": "#073642",
+      "underlinedTabForeground": "#839496",
+      "underlineHeight": 5
+    },
 
     "DragAndDrop": {
       "areaForeground": "#839496",
@@ -128,11 +137,15 @@
     "EditorPane.inactiveBackground": "#002b36",
 
     "EditorTabs": {
-      "selectedForeground": "#839496",
-      "selectedBackground": "#073642",
-      "underlineColor": "#93a1a1",
-      "inactiveMaskColor": "#0d0d0d33",
-      "borderColor": "#839496"
+      "borderColor": "#073642",
+      "underlineColor": "#073642",
+      "inactiveUnderlineColor":  "#002b36",
+      "background": "#074855",
+      "underlinedTabBackground": "#002b36",
+      "hoverMaskColor": "#0A677A",
+      "underlinedTabForeground": "#839496",
+      "inactiveColoredFileBackground": "#074855",
+      "underlineHeight": 0
     },
 
     "FileColor": {
@@ -180,6 +193,10 @@
       }
     },
 
+    "Panel": {
+      "background": "#002b36"
+    },
+
     "ParameterInfo": {
       "background": "#074855",
       "foreground": "#839496",
@@ -189,12 +206,6 @@
     },
 
     "Plugins": {
-      "Tab": {
-        "selectedForeground": "#839496",
-        "selectedBackground": "#074855",
-        "hoverBackground": "#074855"
-      },
-
       "SearchField.borderColor": "#93a1a1",
       "SearchField.background": "#002b36",
       "SectionHeader.background": "#073642",
@@ -270,9 +281,14 @@
     "StatusBar.borderColor": "#1a1721",
 
     "TabbedPane": {
-      "underlineColor": "#073642",
-      "disabledUnderlineColor": "#5e5b6b",
-      "contentAreaColor": "#1a1721"
+      "underlineColor": "#0A677A",
+      "disabledUnderlineColor": "#0A677A",
+      "contentAreaColor": "#073642",
+      "background": "#074855",
+      "foreground": "#839496",
+      "disabledForeground": "#839496",
+      "focusColor": "#073642",
+      "hoverColor": "#0A677A"
     },
 
     "TableHeader.cellBorder": "3,0,3,0",
