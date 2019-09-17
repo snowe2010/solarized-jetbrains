@@ -1,7 +1,7 @@
 <idea-plugin>
   <id>com.tylerthrailkill.intellij.solarized</id>
   <name>Solarized Theme</name>
-  <version>2.1.0</version>
+  <version>3.0.0</version>
   <vendor email="tyler.b.thrailkill@gmail.com" url="http://tylerthrailkill.com">Tyler Thrailkill</vendor>
 
   <description><![CDATA[
@@ -10,6 +10,18 @@
 
   <change-notes><![CDATA[
       <ul>
+      <li>
+        <b>3.0.0   Modifications to align with more modern style:</b>
+        <p>Due to requests from several members of the community and with the work of <a href="https://github.com/simschla">Simon Gamma</a>
+        Solarized Theme now aligns more closely with other editors with the Solarized theme.</p>
+        <p>Some of these changes require new features only found in IntelliJ Platform 2019.2, so this is a major release</p>
+        <ul>
+          <li>dark panel backgrounds</li>
+          <li>clearer tabs: selected, hovered, etc</li>
+          <li>Material UI underline for selected tabs in panels</li>
+          <li>update build to newer IntelliJ build to support new features</li>
+        </ul>
+      </li>
       <li>
         <b>2.1.0   Complete overhaul:</b>
         <ul>
