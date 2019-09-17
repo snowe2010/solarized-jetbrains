@@ -115,7 +115,7 @@
       "background": "#<background_highlights_shade_1>",
       "borderColor": "#<background_highlights_shade_1>",
       "hoverBackground": "#<background_highlights_shade_2>",
-      "inactiveUnderlineColor": "#<background_highlights>",
+      "inactiveUnderlineColor": "#<background_highlights_shade_2>",
       "underlineColor": "#<background_highlights_shade_2>",
       "underlinedTabBackground": "#<background_highlights>",
       "underlinedTabForeground": "#<primary_text>",

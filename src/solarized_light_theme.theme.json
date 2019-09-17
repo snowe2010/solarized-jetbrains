@@ -115,7 +115,7 @@
       "background": "#cdc8b7",
       "borderColor": "#cdc8b7",
       "hoverBackground": "#A4A092",
-      "inactiveUnderlineColor": "#eee8d5",
+      "inactiveUnderlineColor": "#A4A092",
       "underlineColor": "#A4A092",
       "underlinedTabBackground": "#eee8d5",
       "underlinedTabForeground": "#657b83",
