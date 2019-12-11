@@ -229,7 +229,7 @@
       "background": "backgroundHighlightsShade1",
       "foreground": "primaryText",
       "infoForeground": "ababb3",
-      "currentOverloadBackground": "#6A6173",
+      "currentOverloadBackground": "backgroundHighlights",
       "currentParameterForeground": "primaryText"
     },
 
