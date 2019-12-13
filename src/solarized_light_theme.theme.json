@@ -212,7 +212,7 @@
         "informativeBorderColor": "#17254d",
 
         "warningForeground": "primaryText",
-        "warningBackground": "#735822",
+        "warningBackground": "backgroundHighlights",
         "warningBorderColor": "#403013",
 
         "errorForeground": "primaryText",
