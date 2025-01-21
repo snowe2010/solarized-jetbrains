@@ -251,20 +251,6 @@
       }
     },
 
-    "Popup": {
-      "paintBorder": true,
-      "borderColor": "backgroundHighlightsShade1",
-      "inactiveBorderColor": "backgroundHighlights",
-      "Toolbar.borderColor": "#1a1721",
-      "Header.activeBackground": "backgroundHighlightsShade1",
-      "Header.inactiveBackground": "backgroundHighlightsShade1",
-      "Advertiser": {
-        "foreground": "secondaryText",
-        "borderColor": "backgroundHighlightsShade1",
-        "borderInsets": "4,8,3,0"
-      }
-    },
-
     "PopupMenu": {
       "borderWidth": 1,
       "borderInsets": "4,1,4,1"
