@@ -107,8 +107,8 @@
 
     "COMMENT:": "you can put comments in like this",
     "ComboBox": {
-      "nonEditableBackground": "backgroundHighlightsShade1",
-      "background": "backgroundHighlightsShading",
+      "nonEditableBackground": "backgroundHighlights",
+      "background": "backgroundHighlights",
       "ArrowButton": {
         "iconColor": "emphasizedContent",
         "disabledIconColor": "primaryText",
@@ -120,7 +120,9 @@
 
     "CompletionPopup":  {
       "matchForeground": "#ED94FF",
-      "matchSelectionForeground": "#ED94FF"
+      "matchSelectionForeground": "#ED94FF",
+      "selectionInactiveBackground": "backgroundHighlightsShade1",
+      "selectionBackground": "backgroundHighlightsShade1"
     },
 
     "Component": {
