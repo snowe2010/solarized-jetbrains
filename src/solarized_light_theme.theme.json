@@ -16,6 +16,7 @@
     "inverseEmphasizedContent": "#93a1a1",
     "secondaryText": "#93a1a1",
     "backgroundHighlightsShade1": "#cdc8b7",
+    "backgroundHighlightsShade1lighter": "#cdc8b740",
     "backgroundHighlightsShade2": "#A4A092",
     "backgroundHighlightsShade2Shading": "#0A677Ac3",
     "emphasizedContent": "#586e75",
@@ -332,7 +333,7 @@
 
     "ToolTip": {
       "background": "backgroundHighlightsShade1",
-      "Actions.background": "#323245"
+      "Actions.background": "backgroundHighlightsShade1lighter"
     },
 
     "ToolWindow": {
