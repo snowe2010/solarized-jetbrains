@@ -140,11 +140,11 @@
     "DebuggerPopup.borderColor": "#524e66",
 
     "DefaultTabs": {
-      "background": "backgroundHighlightsShade1",
+      "background": "backgroundHighlightsShade1lighter",
       "borderColor": "backgroundHighlightsShade1",
-      "hoverBackground": "backgroundHighlightsShade2",
-      "inactiveUnderlineColor": "backgroundHighlightsShade2",
-      "underlineColor": "backgroundHighlightsShade2",
+      "hoverBackground": "backgroundHighlightsShade1",
+      "inactiveUnderlineColor": "backgroundHighlightsShade1",
+      "underlineColor": "backgroundHighlightsShade1",
       "underlinedTabBackground": "backgroundHighlights",
       "underlinedTabForeground": "primaryText",
       "underlineHeight": 5
