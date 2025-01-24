@@ -19,7 +19,7 @@
     "backgroundHighlightsShade2": "#0A677A",
     "backgroundHighlightsShade2Shading": "#0A677Ac3",
     "emphasizedContent": "#93a1a1",
-    "yellow": "#074855",
+    "yellow": "#b5890010",
     "green": "#213d37",
     "blue": "#2aa198",
     "violet": "#6c71c4",
@@ -370,7 +370,9 @@
 
     "Tree": {
       "rowHeight": 20,
-      "background": "backgroundEmpty"
+      "background": "backgroundEmpty",
+      "selectionBackground": "backgroundHighlightsShade1",
+      "selectionInactiveBackground": "backgroundHighlightsShade1lighter"
     },
 
     "ValidationTooltip": {
