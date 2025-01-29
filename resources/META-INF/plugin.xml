@@ -1,15 +1,29 @@
 <idea-plugin>
   <id>com.tylerthrailkill.intellij.solarized</id>
   <name>Solarized Theme</name>
-  <version>3.0.0</version>
+  <version>3.0.1</version>
   <vendor email="tyler.b.thrailkill@gmail.com" url="http://tylerthrailkill.com">Tyler Thrailkill</vendor>
 
   <description><![CDATA[
       Adds Solarized Dark and Light themes
+      https://ethanschoonover.com/solarized/
     ]]></description>
 
   <change-notes><![CDATA[
       <ul>
+      <li>
+        <b>3.0.1 Fixes for crashes and major color fixes:</b>
+        <p>Resolves a major crash issue by removing part of the theme. There is a bug filed on the Jetbrains page for
+        this issue. <a href="https://youtrack.jetbrains.com/issue/JBR-7981">JBR-7981</a></p>
+        <p>Resolves a bunch of filed bugs</p>
+        <ul>
+          <li><a href="https://github.com/snowe2010/solarized-jetbrains/issues/33">Toggle button's selected state is indistinguishable #33</a></li>
+          <li><a href="https://github.com/snowe2010/solarized-jetbrains/issues/34">Error Description is dark when using Solarized Light #34</a></li>
+          <li><a href="https://github.com/snowe2010/solarized-jetbrains/issues/35">PyCharm freezes on method generation #35</a></li>
+          <li><a href="https://github.com/snowe2010/solarized-jetbrains/issues/36">Secondary text in code completions pop-up is not readable when selected #36</a></li>
+          <li><a href="https://github.com/snowe2010/solarized-jetbrains/issues/37">Incorrect code colors in light theme #37</a></li>
+        </ul>
+      </li>
       <li>
         <b>3.0.0   Modifications to align with more modern style:</b>
         <p>Due to requests from several members of the community and with the work of <a href="https://github.com/simschla">Simon Gamma</a>
